@@ -3,7 +3,7 @@
         <img alt="GitHub Actions status" src="https://github.com/nickatnight/fastapi-spam/actions/workflows/main.yaml/badge.svg">
     </a>
     <a href="https://codecov.io/gh/nickatnight/fastapi-spam">
-        <img alt="Coverage" src="https://codecov.io/gh/nickatnight/fastapi-spam/branch/main/graph/badge.svg?token=5yV0ottQ9o"/>
+        <img alt="Coverage" src="https://codecov.io/gh/nickatnight/fastapi-spam/branch/main/graph/badge.svg?token=FUZyqlCbbl"/>
     </a>
     <a href="https://pypi.org/project/fastapi-spam/">
         <img alt="PyPi Shield" src="https://img.shields.io/pypi/v/fastapi-spam">

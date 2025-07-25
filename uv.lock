@@ -162,12 +162,13 @@ name = "fastapi-spam"
 version = "0.0.1"
 source = { virtual = "." }
 dependencies = [
-    { name = "fastapi" },
+    { name = "starlette" },
 ]
 
 [package.dev-dependencies]
 dev = [
     { name = "black" },
+    { name = "fastapi" },
     { name = "httpx" },
     { name = "isort" },
     { name = "mypy" },
@@ -177,11 +178,12 @@ dev = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "fastapi", specifier = "==0.116.1" }]
+requires-dist = [{ name = "starlette", specifier = ">=0.40.0,<0.48.0" }]
 
 [package.metadata.requires-dev]
 dev = [
     { name = "black", specifier = "==25.1.0" },
+    { name = "fastapi", specifier = "==0.116.1" },
     { name = "httpx", specifier = "==0.28.1" },
     { name = "isort", specifier = "==6.0.1" },
     { name = "mypy", specifier = "==1.16.1" },

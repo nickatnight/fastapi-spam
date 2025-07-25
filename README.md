@@ -45,3 +45,5 @@ app = FastAPI()
 
 app.add_middleware(TenHoursOfRedirect)
 ```
+
+The middleware can also be used with a Starlette application.

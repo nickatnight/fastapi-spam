@@ -5,7 +5,7 @@ description = "FastAPI middleware to redirect spam requests to a random 10 hours
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "fastapi==0.116.1",
+    "starlette>=0.40.0,<0.48.0",
 ]
 
 classifiers = [
@@ -37,6 +37,7 @@ dev = [
     "mypy==1.16.1",
     "ruff==0.12.2",
     "httpx==0.28.1",
+    "fastapi==0.116.1",
 ]
 
 [project.urls]

@@ -1,6 +1,6 @@
 [project]
 name = "fastapi-spam"
-version = "0.0.1"
+version = "0.0.2"
 description = "FastAPI middleware to redirect spam requests to a random 10 hours of video"
 readme = "README.md"
 requires-python = ">=3.12"

@@ -31,7 +31,7 @@ pip install fastapi-spam
 
 ## Usage
 
-Add the `TenHoursOfRedirect` middleware to your FastAPI app.
+Add the `TenHoursOfRedirect` middleware to your FastAPI app (or Starlette).
 
 ```python
 from fastapi import FastAPI
@@ -46,4 +46,4 @@ app = FastAPI()
 app.add_middleware(TenHoursOfRedirect)
 ```
 
-The middleware can also be used with a Starlette application.
+Now, any time an intruder tries to access an endpoint in `SPAM_ROUTES`, they will be redirected to a random 10 hours of video...take that bots!

@@ -32,7 +32,7 @@ jobs:
           # Check each URL using curl and grep
           while read -r url; do
             echo "Checking: $url"
-            if curl -s "$url" | grep -q "Video unavailable"; then
+            if curl -s "$url" | grep -q "This video isn't available anymore"; then
               echo "Broken: $url"
               echo "$url" >> broken/urls.txt
             else

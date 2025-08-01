@@ -12,7 +12,7 @@
         <img alt="uv version" src="https://img.shields.io/badge/uv-0.7.18+-purple">
     </a>
     <a href="https://www.python.org/downloads/">
-        <img alt="Python Versions Shield" src="https://img.shields.io/badge/Python-3.12+-blue?logo=python&logoColor=white">
+        <img alt="Python Versions Shield" src="https://img.shields.io/badge/Python-3.9+-blue?logo=python&logoColor=white">
     </a>
     <a href="https://github.com/nickatnight/fastapi-spam/blob/master/LICENSE">
         <img alt="License Shield" src="https://img.shields.io/github/license/nickatnight/fastapi-spam">
